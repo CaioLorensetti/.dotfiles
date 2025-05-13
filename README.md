@@ -1,2 +1,1 @@
-# bash-linux
-Scripts, functions, bash's for linux
+Personal backup config
