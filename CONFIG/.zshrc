@@ -30,6 +30,7 @@ plugins=(
   kubectl
   dotnet
   tmux
+  z
 )
 
 source $ZSH/oh-my-zsh.sh

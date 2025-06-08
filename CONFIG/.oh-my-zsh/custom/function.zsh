@@ -50,9 +50,9 @@ echo -e "Contexto alterado para \033[0;32m${_context}\033[0m com namespace \033[
 __get_location_fzf () {
     hidden=$1
     if [[ "$1" == "H" ]]; then
-      destination=$(fd -H -E .git -E snap -E Pictures -E Videos -E Music -E Downloads -E kubeuol | fzf --reverse --preview="if [ -d {} ]; then echo \"Directory: {}\" && (cd {} && ls -lh); else bat --color=always {}; fi" ) 
+      destination=$(fd -H -E .git -E snap -E Pictures -E Videos -E Music -E Downloads -E kubeuol | fzf --reverse --preview="if [ -d {} ]; then echo \"Directory: {}\" && (cd {} && ls -lh); else batcat --color=always {}; fi" ) 
     else
-      destination=$(fd -E .git -E snap -E Pictures -E Videos -E Music -E Downloads -E kubeuol | fzf --reverse --preview="if [ -d {} ]; then echo \"Directory: {}\" && (cd {} && ls -lh); else bat --color=always {}; fi" )
+      destination=$(fd -E .git -E snap -E Pictures -E Videos -E Music -E Downloads -E kubeuol | fzf --reverse --preview="if [ -d {} ]; then echo \"Directory: {}\" && (cd {} && ls -lh); else batcat --color=always {}; fi" )
     fi
     echo "$destination"
 }

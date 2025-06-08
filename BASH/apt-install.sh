@@ -1,2 +1,2 @@
 #!/bin/bash
-xargs sudo apt install -y <installed-packages.txt
+xargs sudo apt install -y <packages.txt
