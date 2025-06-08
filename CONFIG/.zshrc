@@ -15,7 +15,7 @@ if [ -d "$FNM_PATH" ]; then
   eval "`fnm env`"
 fi
 
-
+alias code='code-insiders'
 ZSH_THEME="robbyrussell"
 
 

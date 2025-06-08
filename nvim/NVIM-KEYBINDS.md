@@ -13,6 +13,7 @@ Space e → Open the side explorer
 Telescope:
 
 Space f f → Find files
+Space s g → Live grep
 Space f o → Recent files
 Space f w → Live grep (search text)
 Space f r → Open file from project root
