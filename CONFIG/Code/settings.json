@@ -1,0 +1,18 @@
+{
+    "workbench.colorTheme": "Night Owl",
+    "terminal.external.linuxExec": "zsh",
+    "terminal.integrated.allowChords": false,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.explorerKind": "external",
+    "editor.fontFamily": "'FiraCode Nerd Font', 'FiraCode Nerd Font', 'FiraCode Nerd Font'",
+    "editor.formatOnSave": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "csharp": true
+    },
+    "git.confirmSync": false,
+    "git.suggestSmartCommit": false
+}
