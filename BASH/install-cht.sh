@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the destination directory
-BIN_DIR="$HOME/bin"
+BIN_DIR="/usr/local/bin"
 CHT_PATH="$BIN_DIR/cht.sh"
 
 # Create bin directory if it doesn't exist
